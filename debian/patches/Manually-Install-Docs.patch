@@ -1,0 +1,29 @@
+Description: Manually install documentation
+ Prevent the makefle installing documentation
+ so we can do it properly through debhelper
+Author: Jackson Doak <noskcaj@ubuntu.com>
+Forwarded: not-needed
+Last-Update: 2013-09-21
+
+---
+--- a/Makefile.in.in
++++ b/Makefile.in.in
+@@ -51,12 +51,12 @@
+ 	install data/media/$(APPNAME).svg $(DESTDIR)/$(PREFIX)/share/icons/hicolor/scalable/apps
+ 	ln -sf $(PREFIX)/share/icons/hicolor/scalable/apps/$(APPNAME).svg $(DESTDIR)/$(PREFIX)/share/$(APPNAME)/$(APPNAME).svg
+ 
+-	install -d $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+-	install AUTHORS $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+-	install COPYING $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+-	install ChangeLog $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+-	install INSTALL $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+-	install README $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install -d $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install AUTHORS $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install COPYING $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install ChangeLog $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install INSTALL $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
++#	install README $(DESTDIR)/$(PREFIX)/share/doc/$(APPNAME)
+ 
+ 	install -d $(DESTDIR)/$(PREFIX)/share/appdata
+ 	install data/appdata/catfish.appdata.xml $(DESTDIR)/$(PREFIX)/share/appdata/catfish.appdata.xml

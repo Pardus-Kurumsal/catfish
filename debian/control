@@ -1,0 +1,26 @@
+Source: catfish
+Section: utils
+Priority: optional
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Jackson Doak <noskcaj@ubuntu.com>, Sean Davis <smd.seandavis@gmail.com>
+Build-Depends: debhelper (>= 9), python3, python3-distutils-extra
+Standards-Version: 3.9.5
+Homepage: https://launchpad.net/catfish-search
+Vcs-Svn: svn://anonscm.debian.org/python-apps/packages/catfish/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-apps/packages/catfish/trunk/
+
+Package: catfish
+Architecture: all
+Depends: ${python3:Depends}, 
+ ${misc:Depends}, 
+ gir1.2-glib-2.0,
+ gir1.2-gtk-3.0,
+ gir1.2-pango-1.0,
+ gir1.2-gdkpixbuf-2.0,
+ python3-gi-cairo,
+ python3-pexpect
+Recommends: mlocate | locate
+Description: File searching tool which is configurable via the command line
+ Catfish is a handy file searching tool for Linux and UNIX. 
+ The interface is intentionally lightweight and simple, using only Gtk+3. 
+ You can configure it to your needs by using several command line options.
