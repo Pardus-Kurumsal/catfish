@@ -1,3 +1,10 @@
+catfish (1.2.2-1pardus1) unstable; urgency=medium
+
+  * Pardus CI implementation
+  * Add patches
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 19 Jul 2018 15:39:39 +0300
+
 catfish (1.2.2-1) unstable; urgency=medium
 
   * New upstream bugfix release.
