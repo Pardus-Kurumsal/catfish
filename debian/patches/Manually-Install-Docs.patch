@@ -1,14 +1,17 @@
-Description: Manually install documentation
- Prevent the makefle installing documentation
- so we can do it properly through debhelper
-Author: Jackson Doak <noskcaj@ubuntu.com>
-Forwarded: not-needed
-Last-Update: 2013-09-21
+From: Python Applications Packaging Team
+ <python-apps-team@lists.alioth.debian.org>
+Date: Thu, 19 Jul 2018 15:24:45 +0300
+Subject: Manually-Install-Docs
 
 ---
+ Makefile.in.in | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/Makefile.in.in b/Makefile.in.in
+index 744257d..d8a23ba 100755
 --- a/Makefile.in.in
 +++ b/Makefile.in.in
-@@ -51,12 +51,12 @@
+@@ -51,12 +51,12 @@ install: all
  	install data/media/$(APPNAME).svg $(DESTDIR)/$(PREFIX)/share/icons/hicolor/scalable/apps
  	ln -sf $(PREFIX)/share/icons/hicolor/scalable/apps/$(APPNAME).svg $(DESTDIR)/$(PREFIX)/share/$(APPNAME)/$(APPNAME).svg
  
