@@ -1,0 +1,157 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Fri, 20 Jul 2018 10:27:04 +0300
+Subject: Update Turkish translation fix missing
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+---
+ po/tr.po | 55 ++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 28 insertions(+), 27 deletions(-)
+
+diff --git a/po/tr.po b/po/tr.po
+index ddf7623..2961ec8 100644
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -6,10 +6,10 @@
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: catfish-search\n"
++"Project-Id-Version: catfish\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2018-07-19 15:25+0300\n"
+-"PO-Revision-Date: 2018-07-19 15:38+0300\n"
++"POT-Creation-Date: 2018-07-20 10:25+0300\n"
++"PO-Revision-Date: 2018-07-20 10:26+0300\n"
+ "Last-Translator: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>\n"
+ "Language-Team: Türkçe <>\n"
+ "Language: tr\n"
+@@ -122,90 +122,94 @@ msgid "Select a Directory"
+ msgstr "Bir Dizin Seçin"
+ 
+ #: ../data/ui/CatfishWindow.ui.h:30
++msgid "Search terms"
++msgstr "Arama terimleri"
++
++#: ../data/ui/CatfishWindow.ui.h:31
+ msgid "Compact List"
+ msgstr "Kompakt Liste"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:31
++#: ../data/ui/CatfishWindow.ui.h:32
+ msgid "Thumbnails"
+ msgstr "Küçük Resimler"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:32
++#: ../data/ui/CatfishWindow.ui.h:33
+ msgid "Update"
+ msgstr "Güncelle"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:33
++#: ../data/ui/CatfishWindow.ui.h:34
+ msgid "The search database is more than 7 days old.  Update now?"
+ msgstr "Arama veri tabanı 7 günden fazladır.  Şimdi güncelle?"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:34
++#: ../data/ui/CatfishWindow.ui.h:35
+ msgid "Any time"
+ msgstr "Herhangi bir zaman"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:35
++#: ../data/ui/CatfishWindow.ui.h:36
+ msgid "This week"
+ msgstr "Bu hafta"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:36
++#: ../data/ui/CatfishWindow.ui.h:37
+ msgid "Custom"
+ msgstr "Özel"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:37
++#: ../data/ui/CatfishWindow.ui.h:38
+ msgid "<b>Modified</b>"
+ msgstr "<b>Değiştirilmiş</b>"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:38
++#: ../data/ui/CatfishWindow.ui.h:39
+ msgid "Documents"
+ msgstr "Belgeler"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:39
++#: ../data/ui/CatfishWindow.ui.h:40
+ msgid "Folders"
+ msgstr "Dizinler"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:40
++#: ../data/ui/CatfishWindow.ui.h:41
+ msgid "Images"
+ msgstr "Görseller"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:41
++#: ../data/ui/CatfishWindow.ui.h:42
+ msgid "Music"
+ msgstr "Müzik"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:42
++#: ../data/ui/CatfishWindow.ui.h:43
+ msgid "Videos"
+ msgstr "Videolar"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:43
++#: ../data/ui/CatfishWindow.ui.h:44
+ msgid "Applications"
+ msgstr "Uygulamalar"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:44
++#: ../data/ui/CatfishWindow.ui.h:45
+ msgid "Other"
+ msgstr "Diğer"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:45
++#: ../data/ui/CatfishWindow.ui.h:46
+ msgid "<b>File Type</b>"
+ msgstr "<b>Dosya Türü</b>"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:46
++#: ../data/ui/CatfishWindow.ui.h:47
+ msgid "Update Search Database"
+ msgstr "Arama Veritabanını Güncelle"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:47
++#: ../data/ui/CatfishWindow.ui.h:48
+ msgid "Unlock"
+ msgstr "Kilidi Aç"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:48
++#: ../data/ui/CatfishWindow.ui.h:49
+ msgid "<b>Database:</b>"
+ msgstr "<b>Veri Tabanı:</b>"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:49
++#: ../data/ui/CatfishWindow.ui.h:50
+ msgid "<b>Updated:</b>"
+ msgstr "<b>Güncellendi:</b>"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:50
++#: ../data/ui/CatfishWindow.ui.h:51
+ msgid "<big><b>Update Search Database</b></big>"
+ msgstr "<big><b>Arama Veritabanını Güncelle</b></big>"
+ 
+-#: ../data/ui/CatfishWindow.ui.h:51
++#: ../data/ui/CatfishWindow.ui.h:52
+ msgid ""
+ "For faster search results, the search database needs to be refreshed.\n"
+ "This action requires administrative rights."
+@@ -539,9 +543,6 @@ msgstr ""
+ #~ msgid "An error occurred while updating locatedb."
+ #~ msgstr "Bulunan veritabanı güncellenirken bir hata oluştu."
+ 
+-#~ msgid "Clear search terms"
+-#~ msgstr "Arama terimlerini temizle"
+-
+ #~ msgid "Enter search terms and press ENTER"
+ #~ msgstr "Arama terimlerini girin ve ENTER'e basın."
+ 

@@ -1,0 +1,26 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Fri, 20 Jul 2018 10:25:05 +0300
+Subject: Make Critical search placehodler text translatable
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+---
+ data/ui/CatfishWindow.ui | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/ui/CatfishWindow.ui b/data/ui/CatfishWindow.ui
+index 27beaa3..cf7612d 100644
+--- a/data/ui/CatfishWindow.ui
++++ b/data/ui/CatfishWindow.ui
+@@ -723,7 +723,7 @@
+                     <property name="secondary_icon_activatable">False</property>
+                     <property name="primary_icon_sensitive">False</property>
+                     <property name="secondary_icon_sensitive">False</property>
+-                    <property name="placeholder_text">Search terms</property>
++                    <property name="placeholder_text" translatable="yes">Search terms</property>
+                     <signal name="activate" handler="on_search_entry_activate" swapped="no"/>
+                     <signal name="changed" handler="on_search_entry_changed" swapped="no"/>
+                     <signal name="icon-press" handler="on_search_entry_icon_press" swapped="no"/>
